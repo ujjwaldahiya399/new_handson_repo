@@ -1,0 +1,3 @@
+[submodule "new_handson_repo"]
+	path = new_handson_repo
+	url = https://github.com/ujjwaldahiya399/new_handson_repo.git

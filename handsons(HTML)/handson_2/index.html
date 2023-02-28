@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>FORMS</h1>
+    <form action="./index2.html" method="get" target="_blank">
+        <label for="name">Name</label>
+        <input required name="name" type="text" id="name" placeholder="name"><br><br>
+        <label for="email">Email Adrress</label>
+        <input required name="email" type="email" id="email" placeholder="email"><br><br>
+        <label for="password">Password</label>
+        <input required name="password" type="password" id="password" placeholder="password"><br><br>
+        <p>Language</p>
+        <input value="react" type="radio" id="react" name="language">
+        <label for="react" >React</label><br>
+        <input value="angular" type="radio" id="angular"name="language">
+        <label for="angular">Angular</label><br>
+        <input value="vue" type="radio" id="vue" name="language">
+        <label for="vue">Vue</label>
+        <p>Course</p>
+        <input type="checkbox" id="mern">
+        <label for="mern">MERN</label><br>
+        <input type="checkbox" id="mean">
+        <label for="mean">MEAN</label><br>
+        <input type="checkbox" id="mevn">
+        <label for="mevn">MEVN</label>
+        <p>Field:</p>
+        <select name="course" id="choices">
+            <option value="Front_End">Front End</option>
+            <option value="Back_End">Back End</option>
+            <option value="Full_Stack">Full Stack</option>
+        </select>
+        <br><br>
+        <textarea name="reviews" rows="8" cols="24"></textarea><br><br>
+        <label for="phone_number">Phone Number</label>
+        <input required name="phone_number" id="phone_number" placeholder="number">
+        <input type="submit" value="submit">
+        <!-- onclick="(() => alert ('hi'))()" -->
+    </form>
+    <h1>TABLES</h1>
+    <a href="Tables.html">Click Here</a>
+</body>
+</html>
